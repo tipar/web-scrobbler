@@ -1135,5 +1135,9 @@ define(function () {
 		label: 'Musicoin',
 		matches: ['*://musicoin.org/*'],
 		js: ['connectors/musicoin.js']
-	}];
-});
+	}, {
+	        label: 'Torch Music',
+                matches: ['://music.torchbrowser.com/'],
+                js: ['connectors/torch.js']
+                                                      } ];
+                                                       });
